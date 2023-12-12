@@ -78,7 +78,9 @@
 <version>3.4.1.1168</version>
 <!--  Use a newer version here  -->
 </plugin>
-
+ <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.0.2</version>
     </plugins>
 </build>
 
