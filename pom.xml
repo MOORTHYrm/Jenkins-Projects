@@ -65,7 +65,19 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.19</version>
         </plugin>
+
+	    <plugin>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.7.0.1746</version>
+<!--  Use a newer version here  -->
+</plugin>
     </plugins>
 </build>
-	
+	<repositories>
+<repository>
+<id>central</id>
+<url>https://oss.sonatype.org/content/repositories/central</url>
+</repository>
+</repositories>
 </project>
