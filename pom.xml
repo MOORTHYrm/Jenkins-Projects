@@ -74,12 +74,6 @@
             <version>2.19</version>
         </plugin>
 
-	    <plugin>
-<groupId>org.sonarsource.scanner.maven</groupId>
-<artifactId>sonar-maven-plugin</artifactId>
-<version>3.9.0.2155</version>
-<!--  Use a newer version here  -->
-</plugin>
     </plugins>
 </build>
 	<repositories>
