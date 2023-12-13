@@ -45,10 +45,6 @@
 		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
-
-	<properties>
-        <sonar.host.url>http://3.82.109.142:9000/sonar</sonar.host.url>
-       </properties>
 	
 <build>
     <plugins>
@@ -72,12 +68,6 @@
             <version>2.19</version>
         </plugin>
 
-	    <plugin>
-	    <groupId>org.sonarsource.scanner.maven</groupId>
-<artifactId>sonar-maven-plugin</artifactId>
-<version>3.8.0</version>
-<!--  Use a newer version here  -->
-</plugin>
     </plugins>
 </build>
 
